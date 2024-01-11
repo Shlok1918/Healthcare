@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Healthcare</string>
+    <string name="doctors">Doctors</string>
+    <string name="select">Select Item</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>
+
+    <string name="appointments">Appointments</string>
+    <string name="user_profile">User Profile</string>
+
+
+    <string name="new_user">New User?</string>
+    <string name="login_page">Login Page</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+
+    <string name="already_have_account">Already have an account?</string>
+    <string name="phone_number_hint">Phone number</string>
+    <string name="age_hint">Age</string>
+    <string name="address_hint">Address</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="first_name_hint">First name</string>
+    <string name="healthcare">HealthCare</string>
+    <string name="registration">Registration</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register_button">Register</string>
+
+    <string name="admin_login">Admin Login</string>
+
+
+    <string name="log_out">Log Out</string>
+    <string name="hello">Hello </string>
+    <string name="show_doctors">Show Doctors</string>
+    <string name="all_doctors">All Doctors</string>
+    <string name="place_appointment">Place Appointment</string>
+
+    <string name="enable_bluetooth">Enable Bluetooth</string>
+    <string name="disable_bluetooth">Bluetooth Visible</string>
+    <string name="bluetooth_name">Bluetooth</string>
+    <string name="bluetooth_user">Bluetooth Name</string>
+
+
+</resources>

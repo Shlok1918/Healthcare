@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#87D6CF"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <!-- Card 1: Show Doctor -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/show_doctor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="@color/blue_green"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="16dp"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/doctors"
+                    android:contentDescription="@string/show_doctors" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/show_doctors"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card 2: Add Doctor -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/add_doctor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="@color/blue_green"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="16dp"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/doctor"
+                    android:contentDescription="@string/doctors" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/doctors"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card 3: Appointment -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appointment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/blue_green"
+            app:cardCornerRadius="16dp"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/app"
+                    android:contentDescription="@string/appointments" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/appointments"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card 4: Log Out -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/log_out"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/blue_green"
+            app:cardCornerRadius="16dp"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/logout"
+                    android:contentDescription="@string/log_out" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/log_out"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card 2: Add Doctor -->
+        <!-- Repeat the same structure for the remaining cards -->
+
+    </GridLayout>
+</LinearLayout>

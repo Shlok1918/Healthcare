@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">हेल्थकेयर</string>
+    <string name="doctors">डॉक्टर</string>
+    <string name="select">आयटम निवडा</string>
+    <string name="admin">व्यवस्थापक</string>
+    <string name="user">वापरकर्ता</string>
+    <string name="appointments">अपॉइंटमेंट</string>
+    <string name="user_profile">वापरकर्ता प्रोफाइल</string>
+
+
+        <string name="new_user">नवीन वापरकर्ता?</string>
+        <string name="login_page">लॉगिन पेज</string>
+        <string name="username_hint">वापरकर्ता नाव</string>
+        <string name="password_hint">पासवर्ड</string>
+        <string name="login_button">लॉगिन</string>
+
+    <string name="already_have_account">क्या पहले से ही खाता है?</string>
+    <string name="phone_number_hint">फ़ोन नंबर</string>
+    <string name="age_hint">आयु</string>
+    <string name="address_hint">पता</string>
+    <string name="last_name_hint">उपनाम</string>
+    <string name="first_name_hint">पहला नाम</string>
+    <string name="healthcare">स्वास्थ्य सेवा</string>
+    <string name="registration">पंजीकरण</string>
+    <string name="gender">लिंग:</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="register_button">रजिस्टर करें</string>
+
+    <string name="admin_login">व्यवस्थापक लॉगिन</string>
+    <string name="log_out">बाहेर पडा</string>
+    <string name="hello">नमस्कार </string>
+    <string name="show_doctors">डॉक्टर दर्शवा</string>
+    <string name="all_doctors">सर्व डॉक्टर</string>
+    <string name="place_appointment">अॅपॉइंटमेंट ठेवा</string>
+
+    <string name="enable_bluetooth">ब्लूटूथ सक्षम करा</string>
+    <string name="disable_bluetooth">ब्लूटूथ दृश्यमान</string>
+    <string name="bluetooth_name">ब्लूटूथ</string>
+    <string name="bluetooth_user">ब्लूटूथ नाव</string>
+
+
+</resources>

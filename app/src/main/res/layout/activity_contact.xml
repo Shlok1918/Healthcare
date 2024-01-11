@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87D6CF"
+    android:gravity="center">
+
+    <!-- Location EditText -->
+    <EditText
+        android:id="@+id/ed_locate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rounded_corner_view"
+        android:padding="12dp"
+        android:hint="Location"
+        android:textColor="@color/cadet_blue"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <!-- Locate Button -->
+    <Button
+        android:id="@+id/btn_locate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/ed_locate"
+        android:backgroundTint="@color/blue_green"
+        android:text="Locate"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- URL EditText -->
+    <EditText
+        android:id="@+id/ed_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rounded_corner_view"
+        android:padding="12dp"
+        android:hint="Url"
+        android:textColor="@color/cadet_blue"
+        android:layout_below="@id/btn_locate"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Visit Button -->
+    <Button
+        android:id="@+id/btn_visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/ed_url"
+        android:backgroundTint="@color/blue_green"
+        android:text="Visit"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

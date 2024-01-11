@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#87D6CF">
+
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="469dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+
+        android:hint="@string/username_hint"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/cadet_blue"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="148dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="581dp"
+        android:text="@string/admin_login"
+        android:textColor="@color/blue_green"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="205dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/ed_username"
+        android:layout_alignEnd="@+id/ed_username"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+
+        android:layout_marginBottom="345dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/cadet_blue"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ed_password"
+        android:layout_alignEnd="@+id/ed_password"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="230dp"
+        android:backgroundTint="@color/blue_green"
+        android:text="@string/login_button"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+
+</RelativeLayout>

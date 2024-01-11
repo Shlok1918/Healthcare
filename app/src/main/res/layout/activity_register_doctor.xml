@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#87D6CF"
+    >
+
+    <Button
+        android:id="@+id/serach"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="61dp"
+        android:backgroundTint="@color/blue_green"
+        android:text="SEARCH"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="118dp"
+        android:backgroundTint="@color/blue_green"
+        android:text="DELETE"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="207dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/blue_green"
+        android:text="UPDATE"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/upload_img"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="187dp"
+        android:backgroundTint="@color/blue_green"
+        android:text="Upload Image"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <TextView
+        android:id="@+id/app_days2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="340dp"
+        android:text="Time"
+        android:textColor="@color/cadet_blue"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner_appDays"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="393dp" />
+
+    <TextView
+        android:id="@+id/app_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="391dp"
+        android:text="Appointment"
+        android:textColor="@color/cadet_blue"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_docID"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="118dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="556dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/cadet_blue"
+        android:textColorHint="@color/cadet_blue"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="489dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/cadet_blue"
+        android:textColorHint="@color/cadet_blue"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <EditText
+        android:id="@+id/ed_first"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="488dp"
+        android:background="@drawable/rounded_corner_view"
+        android:ems="10"
+        android:hint="Doctor Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/cadet_blue"
+        android:textColorHint="@color/cadet_blue"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="675dp"
+        android:text="Doctor Details"
+        android:textColor="@color/blue_green"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/add_doctor"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="121dp"
+        android:backgroundTint="@color/blue_green"
+        android:text="ADD"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <TextView
+        android:id="@+id/txtSpecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="431dp"
+        android:text="Specialization"
+        android:textColor="@color/cadet_blue"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner_special"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="431dp"
+        android:textColor="@color/cadet_blue"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/check_time1"
+        android:layout_width="192dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="336dp"
+        android:text="9AM-12PM"
+        android:textColor="@color/cadet_blue"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/check_time2"
+        android:layout_width="192dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="302dp"
+        android:text="12PM-3PM"
+        android:textColor="@color/cadet_blue"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/check_time3"
+        android:layout_width="192dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="266dp"
+        android:text="7PM-11PM"
+        android:textColor="@color/cadet_blue"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="128dp"
+        android:layout_height="118dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="183dp" />
+
+</RelativeLayout>
